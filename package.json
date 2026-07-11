@@ -12,12 +12,6 @@
   },
   "license": "MIT",
   "author": "Tim Hazlett",
-  "contributors": [
-    {
-      "name": "Tim Hazlett",
-      "email": "timhazlett2016@gmail.com"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thaz-collective/typescript-config.git"
