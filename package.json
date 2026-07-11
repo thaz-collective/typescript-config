@@ -1,6 +1,6 @@
 {
   "name": "@thaz/typescript-config",
-  "version": "0.1.0-rc.1",
+  "version": "1.0.0-rc.1",
   "description": "TypeScript configuration for applications and libraries in the thaz collective namespace",
   "keywords": [
     "config",
