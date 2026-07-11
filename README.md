@@ -47,7 +47,7 @@ The purpose of this project is to have a common starting point for TypeScript co
     ```
 
 - So a full react example would look like:
-    ```bash
+    ```json
     {
         "extends": [
             "@thaz/typescript-config/bundler.json", 
