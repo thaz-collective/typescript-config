@@ -1,0 +1,46 @@
+{
+  "name": "@thaz/typescript-config",
+  "version": "0.1.0-rc.1",
+  "description": "TypeScript configuration for applications and libraries in the thaz collective namespace",
+  "keywords": [
+    "config",
+    "typescript"
+  ],
+  "homepage": "https://github.com/thazlett16/thaz-utils#readme",
+  "bugs": {
+    "url": "https://github.com/thazlett16/thaz-utils/issues"
+  },
+  "license": "MIT",
+  "author": "Tim Hazlett",
+  "contributors": [
+    {
+      "name": "Tim Hazlett",
+      "email": "timhazlett2016@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaz-collective/typescript-config.git"
+  },
+  "files": [
+    "configs"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./bundler.json": "./configs/bundler.json",
+    "./lib.json": "./configs/lib.json",
+    "./lib-dom.json": "./configs/lib-dom.json",
+    "./paths.json": "./configs/paths.json",
+    "./react.json": "./configs/react.json"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.0 || ^7.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.11.0"
+}
