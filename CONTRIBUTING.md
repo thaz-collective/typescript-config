@@ -2,15 +2,19 @@
 
 When contributing to this repository, please first discuss the change you wish to make via an issue
 
+---
+
 ## Development
 
-Projects in the thaz-collective ecosystem use [*vite-plus*](https://viteplus.dev/) and [*pnpm*](https://pnpm.io/)
+Projects in the thaz-collective ecosystem use [_vite-plus_](https://viteplus.dev/) and [_pnpm_](https://pnpm.io/)
 
 - Install dependencies
   
   ```bash
   vp i
   ```
+
+---
 
 ## Commit Conventions
 

@@ -20,12 +20,22 @@
     "configs"
   ],
   "exports": {
-    "./package.json": "./package.json",
     "./bundler.json": "./configs/bundler.json",
     "./lib.json": "./configs/lib.json",
     "./lib-dom.json": "./configs/lib-dom.json",
     "./paths.json": "./configs/paths.json",
-    "./react.json": "./configs/react.json"
+    "./react.json": "./configs/react.json",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "scripts": {
+    "taze": "vpx taze@latest -Ilwr --maturity-period 3",
+    "taze:major": "vpx taze@latest major -Ilwr --maturity-period 3",
+    "taze:minor": "vpx taze@latest minor -Ilwr --maturity-period 3",
+    "taze:patch": "vpx taze@latest patch -Ilwr --maturity-period 3"
   },
   "devDependencies": {
     "typescript": "catalog:"
@@ -36,9 +46,5 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@11.11.0",
-  "publishConfig": {
-    "access": "public",
-    "tag": "latest"
-  }
+  "packageManager": "pnpm@11.11.0"
 }
