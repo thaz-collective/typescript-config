@@ -6,9 +6,9 @@
     "config",
     "typescript"
   ],
-  "homepage": "https://github.com/thazlett16/thaz-utils#readme",
+  "homepage": "https://github.com/thaz-collective/typescript-config#readme",
   "bugs": {
-    "url": "https://github.com/thazlett16/thaz-utils/issues"
+    "url": "https://github.com/thaz-collective/typescript-config/issues"
   },
   "license": "MIT",
   "author": "Tim Hazlett",
@@ -36,5 +36,9 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@11.11.0"
+  "packageManager": "pnpm@11.11.0",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  }
 }
