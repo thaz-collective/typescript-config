@@ -1,6 +1,6 @@
 {
   "name": "@thaz/typescript-config",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "TypeScript configuration for applications and libraries in the thaz collective namespace",
   "keywords": [
     "config",
@@ -22,7 +22,9 @@
   "exports": {
     "./bundler.json": "./configs/bundler.json",
     "./lib.json": "./configs/lib.json",
+    "./lib-temporal.json": "./configs/lib-temporal.json",
     "./lib-dom.json": "./configs/lib-dom.json",
+    "./lib-dom-temporal.json": "./configs/lib-dom-temporal.json",
     "./paths.json": "./configs/paths.json",
     "./react.json": "./configs/react.json",
     "./package.json": "./package.json"
@@ -46,5 +48,5 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@11.11.0"
+  "packageManager": "pnpm@11.21.0"
 }
